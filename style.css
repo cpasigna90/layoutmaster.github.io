@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #101010;
+    box-shadow: 0 0 10px grey;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+   
+}
+
+.nav-container h4{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.nav-container ul{
+    display: flex;
+    padding:15px;
+    width: 300px;     
+}
+
+.nav-container a{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav-container a:hover{
+    color:#f9004d;
+}
+
+.cover-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+.img-cover{
+    width: 700px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns:repeat(4, minmax(100px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    background-color: #101010;
+    padding: 50px;
+    
+
+}
+
+h3{
+    grid-column: span 4;
+    margin-bottom: 50px;
+    font-size: 70px;
+    color: white;
+
+}
+
+img{
+    width: 100%;
+    
+}
+
+.img1{
+    box-shadow: 0 0 5px white;
+    padding:30px;
+    background-color: #3c3b3b;
+    width: 260px;
+    height: 320px;
+    
+}
+
+.img1:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3c3b3b;
+    position: relative;
+}
+
+
+#first{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 2px 10px;
+    border: 2px solid black;
+}
+
+
+
+textarea{
+    margin-top: 20px;
+    height: 250px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.contact-container {
+    border: 2px solid lightgrey;
+    padding: 60px;
+    background-color: #ffffff;
+}
+
+.contact{
+    color:black;
+}
+
+.submit{
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+.submit:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+    background-color: transparent;
+    color: black;
+    
+}
+.exercise{
+    color:#f9004d;
+}
+
+
